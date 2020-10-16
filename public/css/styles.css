@@ -1,5 +1,5 @@
 body {
-     background-image: url("/img/pic 1.JPG");
+     background-image: url("../img/pic1.jpg");
     color: black;
     font-family: cursive;
     font-size: 20px;
