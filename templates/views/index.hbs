@@ -6,13 +6,14 @@
         <link rel="stylesheet" href="/css/styles.css">
         </head>
         <body>
+            <div class="center">
+                 {{>header}}
+            </div>
             <div class="main-content">
-                  {{>header}}
-                  <h3>Use this site to get your weather</h3>
-                  <p>Search the Address where you want to know the weather!!!</p>
+                  <p>Search your Location and get the weather!!!</p>
 
 
-                  <form>
+                  <form class="design">
                       <input placeholder="Location">
                       <button>Search</button>
                   </form>

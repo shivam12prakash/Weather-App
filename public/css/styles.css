@@ -1,8 +1,8 @@
 body {
-     background-image: url("../img/pic1.jpg");
+    background-image: url("../img/pic1.jpg");
     color: black;
-    font-family: cursive;
     font-size: 20px;
+    font-family: 'Century Gothic';
     font-weight: bolder;
     color: black(196.2, 100%, 35.7%);
     max-width: 650px;
@@ -15,14 +15,19 @@ body {
 }
 
 .main-content {
+    color: darkslategray;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
     flex-grow: 1;
 }
 
 footer {
-    color: lightblue;
+    color: grey;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+    text-align: center;
 }
 
 header {
@@ -36,7 +41,7 @@ h1 {
 }
 
 header a {
-    color: orangered;
+    color: yellow;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -46,13 +51,30 @@ header a {
 }
 
 input {
-    color: #cccccc;
+    color: brown;
     padding: 8px;
 }
 
 button {
     cursor: pointer;
     border: 1px solid #888888;
-    background: orange;
+    background: chocolate;
     padding: 8px;
+}
+
+.design {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.cursive {
+    font-family: 'Courier New';
+}
+
+.last {
+    text-align: center;
+    color: black;
 }
