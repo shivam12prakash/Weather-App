@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/pic1.jpg");
+    background-size: cover;
     color: black;
     font-size: 20px;
     font-family: 'Century Gothic';
@@ -18,7 +19,6 @@ body {
     color: darkslategray;
     text-align: center;
     font-size: larger;
-    padding: 10px;
     flex-grow: 1;
 }
 
@@ -26,7 +26,6 @@ footer {
     color: grey;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
-    padding: 16px 0;
     text-align: center;
 }
 

@@ -14,10 +14,14 @@ const forecast = (latitude, longitude, callback) => {
         }
         else
         {
-            callback(undefined,' The current Temperature is ' + body.current.temperature + ' degree Farenheit.There is a ' + body.current.precip + '% chance of rain.' + 'It feels like ' + body.current.feelslike + '  degrees out.Humidity is ' + body.current.humidity + '%')
-
+            const strr = ' Current Temperature is ' + body.current.temperature + ' degree Farenheit.\n'
+            const str1 =  'There is a ' + body.current.precip + '% chance of rain.\r'
+            const str2 = '\rIt feels like ' + body.current.feelslike + ' degrees out.\n'
+            const str3 = 'Humidity is ' + body.current.humidity + '%\n'
+            const finalstr = strr + str1 + str2 + str3
+            //const fstr = finalstr.split(".")
+            callback(undefined, finalstr)
         }
-
     })
 }
 
